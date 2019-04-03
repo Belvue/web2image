@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web2Image</title>
+    <!-- Search Engine -->
+    <meta name="description" content="Convert HTML & CSS Into Images For Free!">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Web2Image">
+    <meta itemprop="description" content="Convert HTML & CSS Into Images For Free!">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Web2Image">
+    <meta name="twitter:description" content="Convert HTML & CSS Into Images For Free!">
+    <meta name="twitter:site" content="@lierrmm">
+    <meta name="twitter:creator" content="@lierrmm">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Web2Image">
+    <meta name="og:description" content="Convert HTML & CSS Into Images For Free!">
+    <meta name="og:site_name" content="Web2Image">
+    <meta name="og:type" content="website">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/favicon2.png" type="image/png">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Web2Image</h1>
+        <div class="textareas">
+            <label for="html">HTML</label>
+            <textarea name="html" id="html" cols="30" rows="10"></textarea>
+            <label for="css">CSS</label>
+            <textarea name="css" id="css" cols="30" rows="10"></textarea>
+        </div>
+        <div class="buttons">
+            <a onclick="sendData()" class="a_button">Send</a>
+            <img id="preview" />
+            <a class="a_button hide" id="download">Download PNG</a>
+            <a onclick="downloadWEBP()" class="a_button hide" id="download_webp">Download WEBP</a>
+        </div>
+    </div>
+    <footer>
+        <a target="_bank" id="twitter_tgt"><img src="/img/twitter.png"></a>
+        <p>&copy; Belvue <%= new Date().getFullYear(); %> - All Rights Reserved.</p>
+        <a target="_blank" href="https://github.com/Belvue/web2image"><img src="/img/github.png"></a>
+    </footer>
+</body>
+<script src="/js/index.js"></script>
+
+</html>

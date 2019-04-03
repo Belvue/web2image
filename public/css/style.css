@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 42vh 32px;
+    font-size: 14px;
+    background: #2d2d2d;
+    text-align: center;
+}
+
+.a_button:hover {
+    background: dodgerblue;
+    color: white;
+}
+
+.a_button {
+    display: inline-block;
+    cursor: pointer;
+    background: #fff;
+    color: #2d2d2d;
+    padding: 8px 16px;
+    border-radius: 2px;
+    margin-right: 8px;
+    padding: 15px;
+    position: relative;
+    top: 5px;
+}
+
+#width {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+/* Range Slider */
+body {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    color: #666;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+::-moz-range-track {
+    background: #c20042;
+    border: 0;
+}
+
+input::-moz-focus-inner,
+input::-moz-focus-outer {
+    border: 0;
+}
+
+label {
+    margin-top: 0;
+    position: absolute;
+}
+
+#preview {
+    margin: 25px auto;
+    position: relative;
+    display: block;
+    width: 50%;
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+footer p {
+    display: inline-block;
+}
+
+footer img {
+    display: inline-block;
+    top: 8px;
+    position: relative;
+}
+
+body {
+    padding-bottom: 6rem;
+}
+
+textarea {
+    width: 300px;
+    min-height: 60px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    display: inline-block;
+    border-color: #eceff1;
+    border-radius: 2px;
+    font: 300 14px/20px "Roboto", sans-serif;
+    resize: none;
+}
+
+@media (max-width: 664px) {
+    label {
+        position: relative;
+    }
+
+    textarea {
+        display: block;
+    }
+}
